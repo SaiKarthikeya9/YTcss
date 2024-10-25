@@ -584,6 +584,7 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: transparent;
 }
 
 .contacts-content .btn-box a{
