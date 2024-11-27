@@ -621,16 +621,16 @@ html {
         left: -100%;
         z-index: 10;
         width: 300px;
-        background-color: #081b29;
+        background-color: #000000;
         box-shadow: -5px 0 5px rgb(43, 112, 6);
-        transition: .4s ease-out;
+        transition: .3s ease-out;
     }
 
     .navbar a {
         box-sizing: border-box;
         height: 70px;
-        width: 60%;
-        padding: 20px;
+        width: 100%;
+        padding: 20px 40px;
         text-align: left;
         display: flex;
         justify-content: flex-start;
@@ -640,19 +640,17 @@ html {
         align-items: center;
         left: 0;
         top: 0;
-        padding: 40px;
         margin-left: 50px;
         transition: all 0.2s ease-in-out;
     }
 
     .navbar a:hover {
-        background-color: #00abf0;
-        color: #081b29;
-        border-radius: 30px;
-        width: 60%;
+        background-color: transparent;
+        color: #00abf0;
+        padding: 20px 60px;
+        width: 100%;
         transition: .2s ease-in-out;
         font-size: 1.1rem;
-        transform: scale(1); 
     }
 
     .open-sidebar-button,
